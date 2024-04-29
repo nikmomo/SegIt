@@ -1,6 +1,6 @@
 ﻿using System.Windows.Forms;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     partial class mainForm
     {
@@ -73,19 +73,19 @@ namespace SensorDataSegmentation
             this.dataDur = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.mediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.labelSettingButton = new SensorDataSegmentation.NoFocusButton();
-            this.audioButton = new SensorDataSegmentation.NoFocusButton();
-            this.endPointButton = new SensorDataSegmentation.NoFocusButton();
-            this.startPointButton = new SensorDataSegmentation.NoFocusButton();
-            this.returnButton = new SensorDataSegmentation.NoFocusButton();
-            this.skipButton = new SensorDataSegmentation.NoFocusButton();
-            this.playButton = new SensorDataSegmentation.NoFocusButton();
-            this.speedUpButton = new SensorDataSegmentation.NoFocusButton();
-            this.slowDownButton = new SensorDataSegmentation.NoFocusButton();
-            this.addButton = new SensorDataSegmentation.NoFocusButton();
-            this.editButton = new SensorDataSegmentation.NoFocusButton();
-            this.delButton = new SensorDataSegmentation.NoFocusButton();
-            this.graphCtrl = new SensorDataSegmentation.DataGraph();
+            this.labelSettingButton = new SegIt.NoFocusButton();
+            this.audioButton = new SegIt.NoFocusButton();
+            this.endPointButton = new SegIt.NoFocusButton();
+            this.startPointButton = new SegIt.NoFocusButton();
+            this.returnButton = new SegIt.NoFocusButton();
+            this.skipButton = new SegIt.NoFocusButton();
+            this.playButton = new SegIt.NoFocusButton();
+            this.speedUpButton = new SegIt.NoFocusButton();
+            this.slowDownButton = new SegIt.NoFocusButton();
+            this.addButton = new SegIt.NoFocusButton();
+            this.editButton = new SegIt.NoFocusButton();
+            this.delButton = new SegIt.NoFocusButton();
+            this.graphCtrl = new SegIt.DataGraph();
             this.menuStrip1.SuspendLayout();
             this.statusBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.audioControl)).BeginInit();
@@ -400,7 +400,7 @@ namespace SensorDataSegmentation
             // labelSettingButton
             // 
             this.labelSettingButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.labelSettingButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.settings;
+            this.labelSettingButton.BackgroundImage = global::SegIt.Properties.Resources.settings;
             this.labelSettingButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.labelSettingButton.Location = new System.Drawing.Point(1160, 38);
             this.labelSettingButton.Margin = new System.Windows.Forms.Padding(2);
@@ -416,7 +416,7 @@ namespace SensorDataSegmentation
             // audioButton
             // 
             this.audioButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.audioButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.volume_mute;
+            this.audioButton.BackgroundImage = global::SegIt.Properties.Resources.volume_mute;
             this.audioButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.audioButton.Enabled = false;
             this.audioButton.Location = new System.Drawing.Point(1162, 566);
@@ -431,7 +431,7 @@ namespace SensorDataSegmentation
             // endPointButton
             // 
             this.endPointButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.endPointButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.text_select_end;
+            this.endPointButton.BackgroundImage = global::SegIt.Properties.Resources.text_select_end;
             this.endPointButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.endPointButton.Enabled = false;
             this.endPointButton.Location = new System.Drawing.Point(1162, 519);
@@ -447,7 +447,7 @@ namespace SensorDataSegmentation
             // startPointButton
             // 
             this.startPointButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.startPointButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.text_select_start;
+            this.startPointButton.BackgroundImage = global::SegIt.Properties.Resources.text_select_start;
             this.startPointButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.startPointButton.Enabled = false;
             this.startPointButton.Location = new System.Drawing.Point(1133, 519);
@@ -463,7 +463,7 @@ namespace SensorDataSegmentation
             // returnButton
             // 
             this.returnButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.returnButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.skip_back;
+            this.returnButton.BackgroundImage = global::SegIt.Properties.Resources.skip_back;
             this.returnButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.returnButton.Enabled = false;
             this.returnButton.Location = new System.Drawing.Point(993, 566);
@@ -479,7 +479,7 @@ namespace SensorDataSegmentation
             // skipButton
             // 
             this.skipButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.skipButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.skip_forward;
+            this.skipButton.BackgroundImage = global::SegIt.Properties.Resources.skip_forward;
             this.skipButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.skipButton.Enabled = false;
             this.skipButton.Location = new System.Drawing.Point(1070, 566);
@@ -495,7 +495,7 @@ namespace SensorDataSegmentation
             // playButton
             // 
             this.playButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.playButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.play;
+            this.playButton.BackgroundImage = global::SegIt.Properties.Resources.play;
             this.playButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.playButton.Enabled = false;
             this.playButton.Location = new System.Drawing.Point(1032, 566);
@@ -511,7 +511,7 @@ namespace SensorDataSegmentation
             // speedUpButton
             // 
             this.speedUpButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.speedUpButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.fast_forward;
+            this.speedUpButton.BackgroundImage = global::SegIt.Properties.Resources.fast_forward;
             this.speedUpButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.speedUpButton.Enabled = false;
             this.speedUpButton.Location = new System.Drawing.Point(1099, 566);
@@ -527,7 +527,7 @@ namespace SensorDataSegmentation
             // slowDownButton
             // 
             this.slowDownButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.slowDownButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.fast_backward;
+            this.slowDownButton.BackgroundImage = global::SegIt.Properties.Resources.fast_backward;
             this.slowDownButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.slowDownButton.Enabled = false;
             this.slowDownButton.Location = new System.Drawing.Point(964, 566);
@@ -543,7 +543,7 @@ namespace SensorDataSegmentation
             // addButton
             // 
             this.addButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.addButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.plus;
+            this.addButton.BackgroundImage = global::SegIt.Properties.Resources.plus;
             this.addButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.addButton.Enabled = false;
             this.addButton.Location = new System.Drawing.Point(964, 519);
@@ -559,7 +559,7 @@ namespace SensorDataSegmentation
             // editButton
             // 
             this.editButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.editButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.edit;
+            this.editButton.BackgroundImage = global::SegIt.Properties.Resources.edit;
             this.editButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.editButton.Enabled = false;
             this.editButton.Location = new System.Drawing.Point(993, 519);
@@ -575,7 +575,7 @@ namespace SensorDataSegmentation
             // delButton
             // 
             this.delButton.Anchor = System.Windows.Forms.AnchorStyles.Right;
-            this.delButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.trash;
+            this.delButton.BackgroundImage = global::SegIt.Properties.Resources.trash;
             this.delButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.delButton.Enabled = false;
             this.delButton.Location = new System.Drawing.Point(1022, 519);

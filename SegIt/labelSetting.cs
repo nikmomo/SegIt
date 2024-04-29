@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Form for setting labels and colors.

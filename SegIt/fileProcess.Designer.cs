@@ -1,4 +1,4 @@
-﻿namespace SensorDataSegmentation
+﻿namespace SegIt
 {
     partial class fileProcess
     {
@@ -33,10 +33,10 @@
             this.sourceTextBox = new System.Windows.Forms.TextBox();
             this.targetTextBox = new System.Windows.Forms.TextBox();
             this.multipleLabelsCheckBox = new System.Windows.Forms.CheckBox();
-            this.sourceBrowseButton = new SensorDataSegmentation.NoFocusButton();
-            this.cancelButton = new SensorDataSegmentation.NoFocusButton();
-            this.exportButton = new SensorDataSegmentation.NoFocusButton();
-            this.targetBrowseButton = new SensorDataSegmentation.NoFocusButton();
+            this.sourceBrowseButton = new SegIt.NoFocusButton();
+            this.cancelButton = new SegIt.NoFocusButton();
+            this.exportButton = new SegIt.NoFocusButton();
+            this.targetBrowseButton = new SegIt.NoFocusButton();
             this.SuspendLayout();
             // 
             // sourceLabel

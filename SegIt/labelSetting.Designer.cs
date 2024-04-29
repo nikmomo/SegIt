@@ -1,4 +1,4 @@
-﻿namespace SensorDataSegmentation
+﻿namespace SegIt
 {
     partial class labelSetting
     {
@@ -38,14 +38,14 @@
             this.cancelButton = new System.Windows.Forms.Button();
             this.confirmButton = new System.Windows.Forms.Button();
             this.toolTip = new System.Windows.Forms.ToolTip(this.components);
-            this.export = new SensorDataSegmentation.NoFocusButton();
-            this.import = new SensorDataSegmentation.NoFocusButton();
-            this.moveBottom = new SensorDataSegmentation.NoFocusButton();
-            this.moveDown = new SensorDataSegmentation.NoFocusButton();
-            this.moveUp = new SensorDataSegmentation.NoFocusButton();
-            this.moveTop = new SensorDataSegmentation.NoFocusButton();
-            this.addButton = new SensorDataSegmentation.NoFocusButton();
-            this.delButton = new SensorDataSegmentation.NoFocusButton();
+            this.export = new SegIt.NoFocusButton();
+            this.import = new SegIt.NoFocusButton();
+            this.moveBottom = new SegIt.NoFocusButton();
+            this.moveDown = new SegIt.NoFocusButton();
+            this.moveUp = new SegIt.NoFocusButton();
+            this.moveTop = new SegIt.NoFocusButton();
+            this.addButton = new SegIt.NoFocusButton();
+            this.delButton = new SegIt.NoFocusButton();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView)).BeginInit();
             this.SuspendLayout();
             // 
@@ -128,7 +128,7 @@
             // export
             // 
             this.export.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.export.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.outport;
+            this.export.BackgroundImage = global::SegIt.Properties.Resources.outport;
             this.export.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.export.Location = new System.Drawing.Point(243, 226);
             this.export.Margin = new System.Windows.Forms.Padding(2);
@@ -144,7 +144,7 @@
             // import
             // 
             this.import.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.import.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.import;
+            this.import.BackgroundImage = global::SegIt.Properties.Resources.import;
             this.import.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.import.Location = new System.Drawing.Point(243, 197);
             this.import.Margin = new System.Windows.Forms.Padding(2);
@@ -160,7 +160,7 @@
             // moveBottom
             // 
             this.moveBottom.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.moveBottom.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_last;
+            this.moveBottom.BackgroundImage = global::SegIt.Properties.Resources.move_last;
             this.moveBottom.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveBottom.Location = new System.Drawing.Point(243, 131);
             this.moveBottom.Margin = new System.Windows.Forms.Padding(2);
@@ -175,7 +175,7 @@
             // moveDown
             // 
             this.moveDown.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.moveDown.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_down;
+            this.moveDown.BackgroundImage = global::SegIt.Properties.Resources.move_down;
             this.moveDown.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveDown.Location = new System.Drawing.Point(243, 103);
             this.moveDown.Margin = new System.Windows.Forms.Padding(2);
@@ -190,7 +190,7 @@
             // moveUp
             // 
             this.moveUp.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.moveUp.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_up;
+            this.moveUp.BackgroundImage = global::SegIt.Properties.Resources.move_up;
             this.moveUp.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveUp.Location = new System.Drawing.Point(243, 74);
             this.moveUp.Margin = new System.Windows.Forms.Padding(2);
@@ -205,7 +205,7 @@
             // moveTop
             // 
             this.moveTop.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.moveTop.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_top;
+            this.moveTop.BackgroundImage = global::SegIt.Properties.Resources.move_top;
             this.moveTop.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveTop.Location = new System.Drawing.Point(243, 46);
             this.moveTop.Margin = new System.Windows.Forms.Padding(2);
@@ -220,7 +220,7 @@
             // addButton
             // 
             this.addButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.addButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.plus;
+            this.addButton.BackgroundImage = global::SegIt.Properties.Resources.plus;
             this.addButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.addButton.Location = new System.Drawing.Point(11, 256);
             this.addButton.Margin = new System.Windows.Forms.Padding(2);
@@ -236,7 +236,7 @@
             // delButton
             // 
             this.delButton.Anchor = System.Windows.Forms.AnchorStyles.Left;
-            this.delButton.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.trash;
+            this.delButton.BackgroundImage = global::SegIt.Properties.Resources.trash;
             this.delButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.delButton.Location = new System.Drawing.Point(40, 256);
             this.delButton.Margin = new System.Windows.Forms.Padding(2);

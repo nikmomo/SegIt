@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Represents a form that allows users to setup data configurations.

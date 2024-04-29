@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Represents a list of colors with predefined and randomly generated colors.

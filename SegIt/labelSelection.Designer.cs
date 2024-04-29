@@ -1,4 +1,4 @@
-﻿namespace SensorDataSegmentation
+﻿namespace SegIt
 {
     partial class labelSelection
     {

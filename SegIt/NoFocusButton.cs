@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Represents a custom button control that does not receive focus when clicked.

@@ -7,7 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using ZedGraph;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Represents a segment with start and end points along with an associated label.

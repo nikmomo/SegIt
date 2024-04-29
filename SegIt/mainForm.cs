@@ -18,7 +18,7 @@ using WMPLib;
 using System.Reflection;
 using System.Runtime.InteropServices;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// MainForm class for the main form of the application.

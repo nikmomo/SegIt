@@ -1,4 +1,4 @@
-﻿namespace SensorDataSegmentation
+﻿namespace SegIt
 {
     partial class dataSetup
     {
@@ -35,10 +35,10 @@
             this.headerEx = new System.Windows.Forms.Label();
             this.cancelButton = new System.Windows.Forms.Button();
             this.confirmButton = new System.Windows.Forms.Button();
-            this.moveRight2 = new SensorDataSegmentation.NoFocusButton();
-            this.moveLeft2 = new SensorDataSegmentation.NoFocusButton();
-            this.moveRight1 = new SensorDataSegmentation.NoFocusButton();
-            this.moveLeft1 = new SensorDataSegmentation.NoFocusButton();
+            this.moveRight2 = new SegIt.NoFocusButton();
+            this.moveLeft2 = new SegIt.NoFocusButton();
+            this.moveRight1 = new SegIt.NoFocusButton();
+            this.moveLeft1 = new SegIt.NoFocusButton();
             this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
@@ -118,7 +118,7 @@
             // 
             // moveRight2
             // 
-            this.moveRight2.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_right;
+            this.moveRight2.BackgroundImage = global::SegIt.Properties.Resources.move_right;
             this.moveRight2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveRight2.Location = new System.Drawing.Point(361, 94);
             this.moveRight2.Name = "moveRight2";
@@ -128,7 +128,7 @@
             // 
             // moveLeft2
             // 
-            this.moveLeft2.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_left;
+            this.moveLeft2.BackgroundImage = global::SegIt.Properties.Resources.move_left;
             this.moveLeft2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveLeft2.Location = new System.Drawing.Point(361, 125);
             this.moveLeft2.Name = "moveLeft2";
@@ -138,7 +138,7 @@
             // 
             // moveRight1
             // 
-            this.moveRight1.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_right;
+            this.moveRight1.BackgroundImage = global::SegIt.Properties.Resources.move_right;
             this.moveRight1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveRight1.Location = new System.Drawing.Point(170, 94);
             this.moveRight1.Name = "moveRight1";
@@ -148,7 +148,7 @@
             // 
             // moveLeft1
             // 
-            this.moveLeft1.BackgroundImage = global::SensorDataSegmentation.Properties.Resources.move_left;
+            this.moveLeft1.BackgroundImage = global::SegIt.Properties.Resources.move_left;
             this.moveLeft1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.moveLeft1.Location = new System.Drawing.Point(170, 125);
             this.moveLeft1.Name = "moveLeft1";

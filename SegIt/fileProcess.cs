@@ -9,7 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Represents a form used for processing and exporting files with segments data.

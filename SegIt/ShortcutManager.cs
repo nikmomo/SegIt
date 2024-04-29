@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Manages keyboard shortcuts and executes associated actions.

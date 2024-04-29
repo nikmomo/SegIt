@@ -9,7 +9,7 @@ using System.Security.Permissions;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SensorDataSegmentation
+namespace SegIt
 {
     /// <summary>
     /// Manages JSON serialization and deserialization for segment files and labels.
