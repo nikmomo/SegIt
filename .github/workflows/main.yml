@@ -26,7 +26,7 @@ jobs:
 
       - name: Generate Docs
         run: |
-          ./docfx/docfx.exe build
+          mono docfx/docfx.exe docfx.json
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@releases/v3
