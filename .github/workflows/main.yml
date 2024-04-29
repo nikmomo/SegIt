@@ -30,7 +30,7 @@ jobs:
           
       - name: Rename SegIt to Index and remove irrelvant files
         run: |
-          cp _site/SegIt.html _site/index.html
+          # cp _site/SegIt.html _site/index.html
           find _site -type f -name '*SensorDataSegmentation*.html' -exec rm {} +
 
       - name: Deploy Docs
