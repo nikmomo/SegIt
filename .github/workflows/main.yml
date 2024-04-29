@@ -27,6 +27,10 @@ jobs:
       - name: Generate Docs
         run: |
           mono docfx/docfx.exe docfx.json
+          
+      - name: Rename TOC to Index
+        run: |
+          mv _site/toc.html _site/index.html
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@releases/v3
