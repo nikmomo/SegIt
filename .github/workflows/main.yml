@@ -28,9 +28,10 @@ jobs:
         run: |
           mono docfx/docfx.exe docfx.json
           
-      - name: Rename TOC to Index
+      - name: Rename SegIt to Index
         run: |
-          mv _site/toc.html _site/index.html
+          mv _site/SegIt.html _site/index.html
+          find _site -type f -name '*SensorDataSegmentation*.html' -exec rm {} +
 
       - name: Deploy Docs
         uses: JamesIves/github-pages-deploy-action@releases/v3
